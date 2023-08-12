@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
+import { menu, close, real_logo2 } from "../assets";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import useColor from "./hook2";
 
@@ -32,11 +32,7 @@ const Navbar = () => {
           }}
         >
           {/*this is the logo */}
-          <img
-            src={"/src/assets/real_logo2.svg"}
-            alt="logo"
-            className="w-9 h-9 object-contain"
-          />
+          <img src={real_logo2} alt="logo" className="w-9 h-9 object-contain" />
           <p className="dark:text-white text-gray-100 text-[18px] font-bold cursor-pointer flex">
             Adrian&nbsp;
             <span className="sm:block hidden">| CS Student </span>
