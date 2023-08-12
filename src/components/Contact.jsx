@@ -157,7 +157,7 @@ const Contact = () => {
 
         {/* this shows the night canvas if it is night */}
         {/* and the day canvas if it is day */}
-        <EarthNightCanvas />
+        {/* <EarthNightCanvas /> */}
       </motion.div>
     </div>
   );
