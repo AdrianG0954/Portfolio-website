@@ -32,6 +32,7 @@ const Navbar = () => {
           }}
         >
           {/*this is the logo */}
+
           <img src={real_logo2} alt="logo" className="w-9 h-9 object-contain" />
           <p className="dark:text-white text-gray-100 text-[18px] font-bold cursor-pointer flex">
             Adrian&nbsp;
