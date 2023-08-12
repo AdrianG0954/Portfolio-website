@@ -157,11 +157,11 @@ const Contact = () => {
 
         {/* this shows the night canvas if it is night */}
         {/* and the day canvas if it is day */}
-        {/* {date.getHours() > 18 || date.getHours() < 6 ? (
+        {date.getHours() > 18 || date.getHours() < 6 ? (
           <EarthNightCanvas />
         ) : (
           <EarthCanvas />
-        )} */}
+        )}
       </motion.div>
     </div>
   );
