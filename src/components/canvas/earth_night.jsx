@@ -1,48 +1,67 @@
-import { Suspense } from "react"
-import { Canvas } from "@react-three/fiber"
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
-import CanvasLoader from "../Loader"
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import CanvasLoader from "../Loader";
+import { useEffect, useState } from "react";
 
-
-const Earth = () => {
-    const earth_night = useGLTF('./earth/scene.gltf');
-    return (
-        <mesh>
-            <hemisphereLight intensity={0.29} groundColor='black' />
-            <primitive
-                object={earth_night.scene}
-                scale={.45}
-                rotation-y={0}
-                position-y={0}
-            />
-        </mesh>
-
-    )
-}
+const Earth = ({ isMobile }) => {
+  const earth_night = useGLTF("./earth/scene.gltf");
+  return (
+    <mesh>
+      <hemisphereLight intensity={0.29} groundColor="black" />
+      <primitive
+        object={earth_night.scene}
+        scale={isMobile ? 0.37 : 0.4}
+        rotation-y={0}
+        position-y={0}
+      />
+    </mesh>
+  );
+};
 
 const EarthNight = () => {
-    return (
-        <Canvas
-            shadows
-            frameloop="demand"
-            gl={{ preserveDrawingBuffer: true }}
-            camera={{
-                fov: 45,
-                near: 0.1,
-                far: 200,
-                position: [-4, 3, 6]
-            }}
-        >
-            <Suspense fallback={<CanvasLoader />}>
-                <OrbitControls
-                    autoRotate
-                    enableZoom={false}
-                />
-                <Earth />
-            </Suspense>
-            <Preload all />
-        </Canvas>
-    )
-}
+  const [isMobile, setIsMobile] = useState(false);
 
-export default EarthNight
+  useEffect(() => {
+    // Check if the user is on a mobile device
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    //sets the state to the current state of the media query
+    setIsMobile(mediaQuery.matches);
+
+    // Create an event listener to update the state when the user changes their device size
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    // Add the event listener to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Remove the event listener on cleanup
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
+  return (
+    <Canvas
+      shadows
+      frameloop="demand"
+      gl={{ preserveDrawingBuffer: true }}
+      camera={{
+        fov: 45,
+        near: 0.1,
+        far: 200,
+        position: [-4, 3, 6],
+      }}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls autoRotate enableZoom={false} />
+        <Earth isMobile={isMobile} />
+      </Suspense>
+      <Preload all />
+    </Canvas>
+  );
+};
+
+export default EarthNight;
