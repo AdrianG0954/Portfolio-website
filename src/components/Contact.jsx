@@ -163,7 +163,7 @@ const Contact = () => {
           <EarthCanvas />
         )} */}
         {/* <EarthNightCanvas /> */}
-        <BunnyCanvas />
+        <EarthCanvas />
       </motion.div>
     </div>
   );
