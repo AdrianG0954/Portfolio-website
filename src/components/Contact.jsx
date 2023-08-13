@@ -155,14 +155,6 @@ const Contact = () => {
         {/* since its her birthday */}
         {/* {date.getMonth() === 2 && date.getDate() === 15 ? <BunnyCanvas /> : null} */}
 
-        {/* this shows the night canvas if it is night */}
-        {/* and the day canvas if it is day */}
-        {/* {date.getHours() > 18 || date.getHours() < 6 ? (
-          <EarthNightCanvas />
-        ) : (
-          <EarthCanvas />
-        )} */}
-        {/* <EarthNightCanvas /> */}
         <EarthCanvas />
       </motion.div>
     </div>
