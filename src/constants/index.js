@@ -141,7 +141,7 @@ const experiences = [
     company_name: "",
     icon: software_eng,
     iconBg: "#383E56",
-    date: "Fall 2023",
+    date: "Fall 2022",
     points: [
       "Collaborated with fellow students and CS professor, Hasan Baig, to bridge the gap between hardware and software using React.",
       "Seamlessly integrated hardware and software components to create a dynamic platform for interacting with articuno boards virtually.",
