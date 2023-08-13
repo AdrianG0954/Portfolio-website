@@ -155,7 +155,7 @@ const Contact = () => {
         {/* since its her birthday */}
         {/* {date.getMonth() === 2 && date.getDate() === 15 ? <BunnyCanvas /> : null} */}
 
-        <EarthCanvas />
+        <BunnyCanvas />
       </motion.div>
     </div>
   );
