@@ -26,6 +26,7 @@ import {
   calculator_vid,
   google_logo,
   uconn_logo,
+  tutor,
 } from "../assets";
 
 export const navLinks = [
@@ -111,6 +112,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "CSE Data Structures and Intro to Programming Tutor",
+    company_name: "University of Connecticut",
+    icon: tutor,
+    iconBg: "#383E56",
+    date: "Fall 2023 - Present",
+    points: [
+      "Students perform better in their classes when they have access to tutoring. As a tutor, I help students understand the course material and develop their problem-solving skills.",
+      "Demonstrated a deep understanding of fundamental data structures, such as arrays, linked lists, stacks, queues, trees, and graphs.",
+      "Tailored tutoring sessions to individual student needs, identifying weak areas and providing targeted guidance and practice to improve their skills.",
+      "Coached students in developing strong problem-solving skills, breaking down complex coding challenges into manageable steps for systematic resolution.",
+    ],
+  },
+  {
+    title: "CSE 1010 - Intro to CS Teaching Assistant",
+    company_name: "University of Connecticut",
+    icon: uconn_logo,
+    iconBg: "#383E56",
+    date: "Fall 2023 - Present",
+    points: [
+      "Collaborated closely with the course instructor to facilitate engaging and informative coding exercises, helping students develop a strong grasp of the fundamental principles of programming.",
+      "Held regular office hours, providing personalized guidance to students as they worked through coding assignments, troubleshooting issues, and offering explanations that reinforced their understanding of the course material.",
+      "Played a pivotal role in assessing student work by thoroughly reviewing assignments, projects, and code submissions. Offered constructive feedback and suggestions, assisting students in refining their coding techniques and problem-solving strategies.",
+      "Work with students to develop their problem-solving skills and improve their understanding of the course material.",
+    ],
+  },
+  {
     title: "Google Sentiment Analysis",
     company_name: "University of Connecticut",
     icon: google_logo,
@@ -144,7 +171,7 @@ const experiences = [
     date: "Fall 2022",
     points: [
       "Collaborated with fellow students and CS professor, Hasan Baig, to bridge the gap between hardware and software using React.",
-      "Seamlessly integrated hardware and software components to create a dynamic platform for interacting with articuno boards virtually.",
+      "Seamlessly integrated hardware and software components to create a dynamic platform for interacting with arduino boards virtually.",
       "Under the guidance of Professor Hasan Baig, explored innovative ways to enhance hardware-software interaction and user engagement.",
       "The project underscores a commitment to experiential learning and hands-on application, offering valuable insights into real-world technology integration.",
     ],

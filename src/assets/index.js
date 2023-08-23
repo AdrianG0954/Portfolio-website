@@ -31,6 +31,7 @@ import dsa from "./company/DSA.png";
 import software_eng from "./company/software_eng.png";
 import google_logo from "./company/google_logo.png";
 import uconn_logo from "./company/uconn_logo.png";
+import tutor from "./company/tutor.png";
 
 import gol from "./GOL.png";
 import calc from "./calculator.png";
@@ -75,4 +76,5 @@ export {
   calculator_vid,
   google_logo,
   uconn_logo,
+  tutor,
 };
