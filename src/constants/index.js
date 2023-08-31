@@ -249,7 +249,7 @@ const projects = [
     link: "toDownload/Calculator.zip",
   },
   {
-    name: "Algorithm Visualizer",
+    name: "Algorithm Visualizer UPDATED",
     description:
       "W.I.P | A tool that uses visuals to demonstrate how algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
     tags: [
