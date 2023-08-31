@@ -27,6 +27,7 @@ import {
   google_logo,
   uconn_logo,
   tutor,
+  path,
 } from "../assets";
 
 export const navLinks = [
@@ -246,6 +247,26 @@ const projects = [
     image: calculator_vid,
     source_code_Link: "https://github.com/AdrianG0954/Calculator",
     link: "toDownload/Calculator.zip",
+  },
+  {
+    name: "Sorting Visualizer",
+    description:
+      "W.I.P | A tool that uses visuals to demonstrate how sorting algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Git",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: path,
   },
 ];
 

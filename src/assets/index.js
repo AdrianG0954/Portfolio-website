@@ -38,6 +38,7 @@ import calc from "./calculator.png";
 import algo_vis from "./algo_vis.gif";
 import GOL_vid from "./GOL_vid.gif";
 import calculator_vid from "./calculator_vid.gif";
+import path from "./path.gif";
 
 export {
   real_logo2,
@@ -77,4 +78,5 @@ export {
   google_logo,
   uconn_logo,
   tutor,
+  path,
 };
