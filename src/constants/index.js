@@ -251,7 +251,7 @@ const projects = [
   {
     name: "Algorithm Visualizer UPDATED",
     description:
-      "W.I.P | A tool that uses visuals to demonstrate how algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
+      "Originally built with Pygame for sorting algorithms, I'm now revamping it using React. This work-in-progress will soon showcase sorting and pathfinding algorithms in an interactive way. Stay tuned for more updates as I continue to enhance and refine this exciting project!",
     tags: [
       {
         name: "React.js",
