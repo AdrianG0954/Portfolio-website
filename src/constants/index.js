@@ -249,9 +249,9 @@ const projects = [
     link: "toDownload/Calculator.zip",
   },
   {
-    name: "Sorting Visualizer",
+    name: "Algorithm Visualizer",
     description:
-      "W.I.P | A tool that uses visuals to demonstrate how sorting algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
+      "W.I.P | A tool that uses visuals to demonstrate how algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
     tags: [
       {
         name: "React.js",
