@@ -9,14 +9,8 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p
-          className={styles.sectionSubText} //textVariant animates P tags.
-        >
-          Programming languages
-        </p>
-        <h2 className={styles.sectionHeadText}>
-          What languages I specialize in
-        </h2>
+        <p className={styles.sectionSubText}>programming tools</p>
+        <h2 className={styles.sectionHeadText}>My Specialties</h2>
       </motion.div>
 
       <div

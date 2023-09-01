@@ -43,7 +43,7 @@ const Hero = () => {
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl
-          border-4 dark:border-secondary border-black flex justify-center
+          border-4 dark:border-[#765eff] border-[#769FCD] flex justify-center
           items-start p-2 "
           >
             <motion.div
@@ -56,7 +56,7 @@ const Hero = () => {
                 repeatType: "loop",
               }}
               // ball animation
-              className="w-5 h-3 rounded-full dark:bg-secondary bg-black mb-1"
+              className="w-5 h-3 rounded-full dark:bg-[#765eff] bg-[#769FCD] mb-1"
             />
           </div>
         </a>

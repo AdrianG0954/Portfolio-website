@@ -39,8 +39,6 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      {/* shorten this, and be more professional.*/}
-
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 dark:text-secondary text-black text-[17px]

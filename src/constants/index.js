@@ -139,6 +139,19 @@ const experiences = [
     ],
   },
   {
+    title: "Research Assistant",
+    company_name: "",
+    icon: software_eng,
+    iconBg: "#383E56",
+    date: "Fall 2022 - Present",
+    points: [
+      "Collaborated with fellow students and CS professor, Hasan Baig, to bridge the gap between hardware and software using React.",
+      "Seamlessly integrated hardware and software components to create a dynamic platform for interacting with arduino boards virtually.",
+      "Under the guidance of Professor Hasan Baig, explored innovative ways to enhance hardware-software interaction and user engagement.",
+      "The project underscores a commitment to experiential learning and hands-on application, offering valuable insights into real-world technology integration.",
+    ],
+  },
+  {
     title: "Google Sentiment Analysis",
     company_name: "University of Connecticut",
     icon: google_logo,
@@ -162,19 +175,6 @@ const experiences = [
       "Collaborated closely with educators and fellow team members, ensuring the translation service's design aligned with real-world classroom needs and facilitating smooth implementation.",
       "Contributed to the enhancement of teacher-student interaction by streamlining information exchange, enabling teachers to provide clearer instructions and fostering more engaged learning experiences.",
       "Worked with a team  to experience collaborative software development, version control, and project management.",
-    ],
-  },
-  {
-    title: "Research Assistant",
-    company_name: "",
-    icon: software_eng,
-    iconBg: "#383E56",
-    date: "Fall 2022",
-    points: [
-      "Collaborated with fellow students and CS professor, Hasan Baig, to bridge the gap between hardware and software using React.",
-      "Seamlessly integrated hardware and software components to create a dynamic platform for interacting with arduino boards virtually.",
-      "Under the guidance of Professor Hasan Baig, explored innovative ways to enhance hardware-software interaction and user engagement.",
-      "The project underscores a commitment to experiential learning and hands-on application, offering valuable insights into real-world technology integration.",
     ],
   },
 ];

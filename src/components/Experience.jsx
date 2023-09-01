@@ -9,7 +9,6 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { useMemo } from "react";
 import useColor from "./hook2";
 
 const ExperienceCard = ({ experience }) => {
@@ -65,14 +64,8 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p
-          className={styles.sectionSubText} //textVariant animates P tags.
-        >
-          What I have accomplished
-        </p>
-        <h2 className={styles.sectionHeadText}>Experience</h2>
-      </motion.div>
+      <p className={styles.sectionSubText}>What I have Done</p>
+      <h2 className={styles.sectionHeadText}>Experience</h2>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
