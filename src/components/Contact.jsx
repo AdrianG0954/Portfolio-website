@@ -65,7 +65,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] dark:bg-black-100 bg-navBarLight p-8 rounded-2xl"
+        className="flex-[0.75] dark:bg-darkColorSecondary bg-navBarLight p-8 rounded-2xl"
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
@@ -89,7 +89,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="dark:bg-tertiary bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-secondary
+              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />
@@ -109,7 +109,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="dark:bg-tertiary bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-secondary
+              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />
@@ -129,7 +129,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What would you like to say?"
-              className="dark:bg-tertiary bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-secondary
+              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />
@@ -137,7 +137,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="dark:bg-tertiary bg-[#FBFCF8] py-3 px-8 outline-none
+            className="dark:bg-darkColorSecondary bg-navBarLight py-3 px-8 outline-none
             w-fit dark:text-white text-black font-bold shadow-md shadow-primary
             rounded-xl"
           >

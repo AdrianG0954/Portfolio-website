@@ -10,6 +10,7 @@ import download from "./download.png";
 import feedback from "./feedback.jpg";
 import Moon from "./Moon.svg";
 import Sun from "./Sun.svg";
+import test from "./test.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,6 +33,7 @@ import software_eng from "./company/software_eng.png";
 import google_logo from "./company/google_logo.png";
 import uconn_logo from "./company/uconn_logo.png";
 import tutor from "./company/tutor.png";
+import gdsc from "./company/GDSC-Crop.png";
 
 import gol from "./GOL.png";
 import calc from "./calculator.png";
@@ -79,4 +81,6 @@ export {
   uconn_logo,
   tutor,
   path,
+  test,
+  gdsc,
 };

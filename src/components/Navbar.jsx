@@ -16,7 +16,7 @@ const Navbar = () => {
       // changes the properties of the navbar
       className={`
         ${styles.paddingX} w-full flex items-center
-        py-5 fixed top-0 z-20 dark:bg-primary bg-lightMode`}
+        py-5 fixed top-0 z-20 dark:bg-darkColor bg-lightMode`}
     >
       <div
         className="w-full flex justify-between
@@ -50,10 +50,10 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title
-                  ? "dark:text-white text-black"
-                  : "dark:text-secondary text-gray-100"
+                  ? "dark:text-gray-100 text-black"
+                  : "dark:text-white text-gray-100"
               }
-              dark:hover:text-white hover:text-white text-[18px] font-medium cursor-pointer`}
+              dark:hover:text-gray-100 hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(Link.title)}
             >
               <a href={`#${Link.id}`}>{Link.title}</a>

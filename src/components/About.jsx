@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="dark:bg-tertiary bg-navBarLight rounded-[20px] py-5 px-12 min-h-[280px]
+          className="dark:bg-darkColorSecondary bg-navBarLight rounded-[20px] py-5 px-12 min-h-[280px]
         flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
@@ -41,7 +41,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 dark:text-secondary text-black text-[17px]
+        className="mt-4 dark:text-white text-black text-[17px]
       max-w-3xl leading-[30px]"
       >
         As an honors undergrad in computer science at UConn, I'm deeply

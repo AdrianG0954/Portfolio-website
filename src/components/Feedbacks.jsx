@@ -15,7 +15,7 @@ const FeedbackCard = ({
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="dark:bg-black-200 bg-lightMode p-10 rounded-3xl xs:w-[320px]
+      className="dark:bg-darkColor bg-lightMode p-10 rounded-3xl xs:w-[320px]
     w-full "
     >
       <p className="dark:text-white text-black font-black text-[47px]">"</p>
@@ -34,7 +34,7 @@ const FeedbackCard = ({
             <p className="text-white font-medium text-[16px]">
               <span className="blue-text-gradient">@</span> {name}
             </p>
-            <p className="mt-1 dark:text-secondary text-black text-[12px]">
+            <p className="mt-1 dark:text-white text-black text-[12px]">
               {designation} at {company}
             </p>
           </div>
@@ -52,9 +52,9 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     /*this makes a square */
-    <div className="mt-12 dark:bg-black-100 bg-[#FBFCF8] rounded-[20px]">
+    <div className="mt-12 dark:bg-[#2c2c2c] bg-[#FBFCF8] rounded-[20px]">
       <div
-        className={`${styles.padding} dark:bg-tertiary bg-navBarLight
+        className={`${styles.padding} dark:bg-darkColorSecondary bg-navBarLight
     rounded-2xl min-h-[300px] `}
       >
         {/* this is the text */}

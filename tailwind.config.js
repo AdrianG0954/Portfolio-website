@@ -13,6 +13,8 @@ module.exports = {
         navBarLight: "#c7eafc",
         "lightMode-100": "#7dcef8",
         // DAF1FD (MAYBE)
+        darkColor: "#070707",
+        darkColorSecondary: "#121212",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -28,6 +30,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
         "meme-pattern": "url('/src/assets/thickline.svg')",
+        "test-pattern": "url('/src/assets/test.png')",
       },
     },
   },

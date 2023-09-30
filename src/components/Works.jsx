@@ -35,7 +35,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="dark:bg-tertiary bg-navBarLight p-5 rounded-2xl
+        className="dark:bg-darkColorSecondary bg-navBarLight p-5 rounded-2xl
       sm:w-[360px] w-full"
       >
         {/*image of project*/}
@@ -87,7 +87,7 @@ const ProjectCard = ({
           <h3 className="dark:text-white text-gray-100 font-bold text-[24px]">
             {name}
           </h3>
-          <p className="mt-2 dark:text-secondary text-black text-[14px]">
+          <p className="mt-2 dark:text-white text-black text-[14px]">
             {description}
           </p>
         </div>
@@ -124,7 +124,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 dark:text-secondary text-black text-[17px]
+          className="mt-3 dark:text-white text-black text-[17px]
         max-w-3xl leading-[30px]"
         >
           During my academic journey, I've taken on various projects to learn

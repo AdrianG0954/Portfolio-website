@@ -17,7 +17,7 @@
 for light and dark mode */
 
 .custom-class .vertical-timeline-element-content {
-  @apply dark:bg-tertiary bg-navBarLight;
+  @apply dark:bg-darkColorSecondary bg-navBarLight;
 }
 
 .hash-span {
@@ -63,8 +63,8 @@ for light and dark mode */
 
 .green-pink-gradient {
   background: "#00d0ff";
-  background: linear-gradient(90.13deg, #00d0ff 1.9%, #9900ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00d0ff 1.9%, #9900ff 97.5%);
+  background: linear-gradient(90.13deg, #00d0ff 1.9%, #9900ff 96.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00d0ff 1.9%, #9900ff 96.5%);
 }
 
 .orange-text-gradient {

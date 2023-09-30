@@ -15,8 +15,8 @@ import StarsCanvas from "./components/canvas/Stars";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 dark:bg-primary bg-lightMode ">
-        <div className="dark:bg-hero-pattern bg-meme-pattern bg-cover bg-no-repeat bg-center">
+      <div className="relative z-0 dark:bg-darkColor bg-lightMode ">
+        <div className="dark:bg-test-pattern bg-meme-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
         </div>
