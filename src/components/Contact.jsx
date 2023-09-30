@@ -89,7 +89,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
+              className="dark:bg-[#606060] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />
@@ -109,7 +109,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
+              className="dark:bg-[#606060] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />
@@ -129,7 +129,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What would you like to say?"
-              className="dark:bg-[#2c2c2c] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
+              className="dark:bg-[#606060] bg-[#FBFCF8] py-4 px-6 dark:placeholder:text-white
               placeholder:text-black
               dark:text-white text-black rounded-lg outlined-none border-none font-medium"
             />

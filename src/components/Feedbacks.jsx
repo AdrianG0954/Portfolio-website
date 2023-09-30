@@ -52,7 +52,7 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     /*this makes a square */
-    <div className="mt-12 dark:bg-[#2c2c2c] bg-[#FBFCF8] rounded-[20px]">
+    <div className="mt-12 dark:bg-[#606060] bg-[#FBFCF8] rounded-[20px]">
       <div
         className={`${styles.padding} dark:bg-darkColorSecondary bg-navBarLight
     rounded-2xl min-h-[300px] `}

@@ -23,7 +23,7 @@ const Hero = () => {
             className={`${styles.heroHeadText} dark:text-white text-gray-100`}
           >
             Hello, I'm{" "}
-            <span className="dark:text-[#434343] text-[#769FCD]">Adrian</span>
+            <span className="dark:text-[#606060] text-[#769FCD]">Adrian</span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 dark:text-white-100 text-gray-100`}
@@ -43,7 +43,7 @@ const Hero = () => {
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl
-          border-4 dark:border-[#434343] border-[#769FCD] flex justify-center
+          border-4 dark:border-[#606060] border-[#769FCD] flex justify-center
           items-start p-2 "
           >
             <motion.div
@@ -56,7 +56,7 @@ const Hero = () => {
                 repeatType: "loop",
               }}
               // ball animation
-              className="w-5 h-3 rounded-full dark:bg-[#434343] bg-[#769FCD] mb-1"
+              className="w-5 h-3 rounded-full dark:bg-[#606060] bg-[#769FCD] mb-1"
             />
           </div>
         </a>

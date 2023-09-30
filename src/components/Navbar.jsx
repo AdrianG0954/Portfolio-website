@@ -47,13 +47,14 @@ const Navbar = () => {
         >
           {navLinks.map((Link) => (
             <li
+              // if the link is active then change the color
               key={Link.id}
               className={`${
                 active === Link.title
-                  ? "dark:text-gray-100 text-black"
+                  ? "dark:text-[#606060] text-white"
                   : "dark:text-white text-gray-100"
               }
-              dark:hover:text-gray-100 hover:text-white text-[18px] font-medium cursor-pointer`}
+              dark:hover:text-[#606060] hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(Link.title)}
             >
               <a href={`#${Link.id}`}>{Link.title}</a>
@@ -204,8 +205,8 @@ const Navbar = () => {
                   key={Link.id}
                   className={`${
                     active === Link.title
-                      ? "text-white"
-                      : "dark:text-secondary text-lightMode"
+                      ? "text-white dark:text-black "
+                      : "dark:text-white text-lightMode"
                   }
                 font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {

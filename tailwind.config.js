@@ -12,13 +12,11 @@ module.exports = {
         lightMode: "#E1F2FB",
         navBarLight: "#c7eafc",
         "lightMode-100": "#7dcef8",
-        // DAF1FD (MAYBE)
         darkColor: "#070707",
-        darkColorSecondary: "#1c1c1c",
+        darkColorSecondary: "#303030",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        // dark gray
         "gray-100": "#212121",
       },
       boxShadow: {
