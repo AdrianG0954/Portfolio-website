@@ -14,7 +14,7 @@ module.exports = {
         "lightMode-100": "#7dcef8",
         // DAF1FD (MAYBE)
         darkColor: "#070707",
-        darkColorSecondary: "#121212",
+        darkColorSecondary: "#1c1c1c",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
