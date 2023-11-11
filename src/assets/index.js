@@ -25,6 +25,11 @@ import c from "./tech/c.png";
 import c2 from "./tech/c++.png";
 import typescript from "./tech/typescript.png";
 import java from "./tech/java.png";
+import bootstrap from "./tech/bootstrap.png";
+import django from "./tech/django-development.svg";
+import nodejs from "./tech/nodejs.png";
+import net from "./tech/NET_Core_Logo.png";
+import springboot from "./tech/springboot.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -83,4 +88,9 @@ export {
   path,
   test,
   gdsc,
+  bootstrap,
+  django,
+  nodejs,
+  net,
+  springboot,
 };

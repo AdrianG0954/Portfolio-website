@@ -1,3 +1,4 @@
+import { n } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
@@ -29,7 +30,13 @@ import {
   tutor,
   path,
   gdsc,
+  bootstrap,
+  django,
+  nodejs,
+  net,
+  springboot,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -65,7 +72,7 @@ const services = [
   },
 ];
 
-const technologies = [
+const technologiesLanguages = [
   {
     name: "HTML 5",
     icon: html,
@@ -77,14 +84,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
   },
   {
     name: "C",
@@ -106,8 +105,35 @@ const technologies = [
     name: "Java",
     icon: java,
   },
+];
+
+const technologiesTools = [
   {
-    name: "git",
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: ".NET",
+    icon: net,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Spring Boot",
+    icon: springboot,
+  },
+  {
+    name: "Git",
     icon: git,
   },
 ];
@@ -284,4 +310,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects,technologiesTools,technologiesLanguages };
