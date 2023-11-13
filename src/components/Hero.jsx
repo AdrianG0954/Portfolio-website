@@ -69,7 +69,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`${styles.paddingX} absolute inset-0 justify-center items-center top-[120px] max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5`}
+        className={`${styles.paddingY} absolute inset-0 justify-center  max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5`}
       >
         <img
           src={real_logo2}
@@ -77,7 +77,7 @@ const Hero = () => {
           style={{
             width: "750px",
             height: "750px",
-            marginTop: "385px",
+            marginTop: "390px",
           }}
         />
       </div>
