@@ -75,7 +75,7 @@ const Hero = () => {
           style={{
             width: "750px",
             height: "750px",
-            marginTop: "365px",
+            marginTop: "385px",
           }}
         />
       </div>
