@@ -68,7 +68,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 flex justify-center items-center">
+      <div
+        className={`${styles.paddingX} absolute inset-0 justify-center items-center top-[120px] max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5`}
+      >
         <img
           src={real_logo2}
           alt="logo"
