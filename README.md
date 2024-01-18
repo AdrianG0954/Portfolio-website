@@ -9,9 +9,9 @@ Currently, two official plugins are available:
 
 *insparation given to me by "JavaScript Mastery".*
 
-after watching the video and implementing the website to learn react
+after watching the video and implementing the website to learn react,
 I took it upon myself to find how to change and add my special twist to it. 
-With many new features added already, I plan to continue to add changes as I learn more and more about React.
+With many new features such as light and dark mode, custom Gifs, and more added already, I plan to continue to add changes as I learn more and more about React.
 
 Link to video:
 https://www.youtube.com/watch?v=0fYi8SGA20k&t=140s&ab_channel=JavaScriptMastery
