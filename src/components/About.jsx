@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import Tech from "../components/Tech";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -37,21 +36,28 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>About Me</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>About me</h2>
+      </motion.div>
+
+      <motion.div variants={textVariant()}>
+        <h3 className="dark:text-white font-bold text-gray-100 md:text-[35px] sm:text-[30px] xs:text-[20px] text-[25px] mt-14">
+          Hello, I'm Adrian!
+        </h3>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 dark:text-white text-black text-[17px]
-      max-w-3xl leading-[30px]"
+        className="mt-4 dark:text-white text-black md:text-[20px] sm:text-[20px] xs:text-[20px] text-[18px] max-w-6xl leading-[45px]"
       >
-        As an honors undergrad in computer science at UConn, I'm deeply
-        passionate about software. Here, I present my projects and skills,
-        showcasing my journey. My experience spans across various programming
-        languages, enhancing my adaptability and innovative thinking. Driven by
-        a thirst for learning and a knack for inventive solutions, I approach
-        challenges with a unique perspective.
+        Rising junior working towards a Bachelor's in Computer Science, and
+        passionate about not only tech, but using it to change and improve our
+        way of life.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="text-center mt-12 dark:text-white text-black md:text-[20px] font-bold sm:text-[20px] xs:text-[20px] text-[18px] max-w-6xl leading-[45px]"
+      >
+        "Luck is what happens when preparation meets opportunity" - Seneca.
       </motion.p>
     </>
   );

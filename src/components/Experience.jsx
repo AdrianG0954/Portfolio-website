@@ -64,7 +64,6 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <p className={styles.sectionSubText}>What I have Done</p>
       <h2 className={styles.sectionHeadText}>Experience</h2>
 
       <div className="mt-20 flex flex-col">

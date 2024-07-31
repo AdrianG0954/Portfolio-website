@@ -1,17 +1,14 @@
-import { n } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   c,
   c2,
-  c_sharp,
   python,
   git,
   meta,
@@ -35,6 +32,12 @@ import {
   nodejs,
   net,
   springboot,
+  syf,
+  mongodb,
+  mysql,
+  jira,
+  bitbucket,
+  figma,
 } from "../assets";
 
 
@@ -74,16 +77,12 @@ const services = [
 
 const technologiesLanguages = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "C",
@@ -93,28 +92,16 @@ const technologiesLanguages = [
     name: "C++",
     icon: c2,
   },
-  {
-    name: "C#",
-    icon: c_sharp,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
 ];
 
-const technologiesTools = [
+const backendTools = [
   {
-    name: "Bootstrap",
-    icon: bootstrap,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
-    name: "Django",
-    icon: django,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "Node JS",
@@ -125,12 +112,25 @@ const technologiesTools = [
     icon: net,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Spring Boot",
     icon: springboot,
+  },
+
+];
+
+
+const technologiesTools = [
+  {
+    name: "Jira",
+    icon: jira,
+  },
+  {
+    name: "Bitbucket",
+    icon: bitbucket,
+  },
+  {
+    name: "Figma",
+    icon: figma,
   },
   {
     name: "Git",
@@ -139,6 +139,19 @@ const technologiesTools = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineering Intern",
+    company_name: "Synchrony Financial",
+    icon: syf,
+    iconBg: "#383E56",
+    date: "Summer 2024 - Present",
+    points: [
+      "Collaborated with a team of developers to design and implement new features for the company's website, enhancing user experience and functionality.",
+      "Developed and maintained codebase, ensuring high performance and reliability of the website.",
+      "Worked closely with product managers and designers to create user-friendly interfaces and intuitive navigation.",
+      "Participated in code reviews and testing to identify and resolve issues, ensuring high-quality code and optimal performance.",
+    ],
+  },
   {
     title: "Google Developer Student Club - Algorithmic Problem-Solving Mentor",
     company_name: "University of Connecticut",
@@ -179,7 +192,7 @@ const experiences = [
     ],
   },
   {
-    title: "CSE 1010 - Intro to CS Teaching Assistant",
+    title: "UConn CS Teaching Assistant",
     company_name: "University of Connecticut",
     icon: uconn_logo,
     iconBg: "#383E56",
@@ -190,33 +203,7 @@ const experiences = [
       "Played a pivotal role in assessing student work by thoroughly reviewing assignments, projects, and code submissions. Offered constructive feedback and suggestions, assisting students in refining their coding techniques and problem-solving strategies.",
       "Work with students to develop their problem-solving skills and improve their understanding of the course material.",
     ],
-  },
-  {
-    title: "Google Sentiment Analysis",
-    company_name: "University of Connecticut",
-    icon: google_logo,
-    iconBg: "#383E56",
-    date: "Summer 2023",
-    points: [
-      " Enhanced sentiment analysis algorithms for accuracy, involving evaluation and implementation. Extracted key information and sentiments from stock-related articles for valuable insights.",
-      "Yahoo Finance Stock Sentiment Analysis: Collaborated effectively with Yahoo Finance to analyze stock sentiments using data analysis techniques. This involved extracting insights from market trends and investor sentiment.",
-      "Managed live development projects, coordinating tasks and timelines. Translated data insights into actionable recommendations, catering to investors and stakeholders.",
-      "Collaborated effectively with multidisciplinary teams, fostering teamwork and dynamic solutions. Gained hands-on insight into financial markets, stocks, and investor sentiment through practical data analysis.",
-    ],
-  },
-  {
-    title: "Google Solutions Challenge 2023",
-    company_name: "University of Connecticut",
-    icon: uconn_logo,
-    iconBg: "#383E56",
-    date: "Spring 2023",
-    points: [
-      "Responded to a challenge presented by Governor Ned Lamont to create a translation service benefiting Stamford Public School teachers and non-native English-speaking students.",
-      "Collaborated closely with educators and fellow team members, ensuring the translation service's design aligned with real-world classroom needs and facilitating smooth implementation.",
-      "Contributed to the enhancement of teacher-student interaction by streamlining information exchange, enabling teachers to provide clearer instructions and fostering more engaged learning experiences.",
-      "Worked with a team  to experience collaborative software development, version control, and project management.",
-    ],
-  },
+  }, 
 ];
 
 const testimonials = [
@@ -248,24 +235,24 @@ const projects = [
     source_code_Link: "https://github.com/AdrianG0954/Game-Of-Life",
     link: "toDownload/GOL.zip",
   },
-  {
-    name: "Algorithm Visualizer",
-    description:
-      "A tool that uses visuals to demonstrate how algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Git",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: algo_vis,
-    source_code_Link: "https://github.com/AdrianG0954/Algorithm-visualizer",
-    link: "toDownload/algo_visual.zip",
-  },
+  // {
+  //   name: "Algorithm Visualizer",
+  //   description:
+  //     "A tool that uses visuals to demonstrate how algorithms work. By providing a graphical representation of the algorithm's execution, it allows users to observe each step and gain a deeper understanding of the algorithmic concepts at play.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Git",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: algo_vis,
+  //   source_code_Link: "https://github.com/AdrianG0954/Algorithm-visualizer",
+  //   link: "toDownload/algo_visual.zip",
+  // },
   {
     name: "Calculator",
     description:
@@ -291,7 +278,7 @@ const projects = [
   {
     name: "Algorithm Visualizer UPDATED",
     description:
-      "Originally built with Pygame for sorting algorithms, I'm now revamping it using React. This work-in-progress will soon showcase sorting and pathfinding algorithms in an interactive way. Stay tuned for more updates as I continue to enhance and refine this exciting project!",
+      "W.I.P. Originally built with Pygame for sorting algorithms, I'm now revamping it using React. Stay tuned for more updates. Link is to original project.",
     tags: [
       {
         name: "React.js",
@@ -307,7 +294,9 @@ const projects = [
       },
     ],
     image: path,
+    source_code_Link: "https://github.com/AdrianG0954/Algorithm-visualizer"
   },
 ];
 
-export { services, experiences, testimonials, projects,technologiesTools,technologiesLanguages };
+export { services, experiences, testimonials, projects, technologiesTools, technologiesLanguages, backendTools };
+ 

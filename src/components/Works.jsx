@@ -104,30 +104,8 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p
-          className={styles.sectionSubText} //textVariant animates P tags.
-        >
-          My Work
-        </p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
-
-      {/* during my course work i have actively persued these projects
-      be short and to the point and avoid telling them i am currently in uni and im a software dev bc i already stated that
-      tell them that this is not necessary and that I did this soley to learn and grow. */}
-
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 dark:text-white text-black text-[17px]
-        max-w-3xl leading-[30px]"
-        >
-          During my academic journey, I've taken on various projects to learn
-          and improve. These projects were not required but were chosen by me to
-          grow as a software developer. They represent my commitment to getting
-          better and gaining practical experience in the field.
-        </motion.p>
-      </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (

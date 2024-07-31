@@ -23,7 +23,6 @@ const Hero = () => {
           <h1
             className={`${styles.heroHeadText} dark:text-white text-gray-100`}
           >
-            {/* Welcome, I'm{" "} */}
             <TypeAnimation
               cursor={false}
               style={{
@@ -56,7 +55,7 @@ const Hero = () => {
                 sequence={[
                   "I am a Computer Science student\n currently attending UConn.",
                   1500,
-                  "I am a Computer Science student\n with a passion for software development.",
+                  "I am a Computer Science student\n Interning at Synchrony Financial.",
                   1500,
                 ]}
                 repeat={Infinity}

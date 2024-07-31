@@ -30,6 +30,10 @@ import django from "./tech/django-development.svg";
 import nodejs from "./tech/nodejs.png";
 import net from "./tech/NET_Core_Logo.png";
 import springboot from "./tech/springboot.png";
+import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/png_mysql.png";
+import jira from "./tech/jira.png";
+import bitbucket from "./tech/bitbucket.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,6 +43,7 @@ import google_logo from "./company/google_logo.png";
 import uconn_logo from "./company/uconn_logo.png";
 import tutor from "./company/tutor.png";
 import gdsc from "./company/GDSC-Crop.png";
+import syf from "./company/SYF.png";
 
 import gol from "./GOL.png";
 import calc from "./calculator.png";
@@ -93,4 +98,9 @@ export {
   nodejs,
   net,
   springboot,
+  syf,
+  mongodb,
+  mysql,
+  jira,
+  bitbucket,
 };

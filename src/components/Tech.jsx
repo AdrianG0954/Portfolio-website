@@ -1,42 +1,80 @@
+import { SectionWrapper } from "../hoc";
+import {
+  technologiesLanguages,
+  technologiesTools,
+  backendTools,
+} from "../constants";
+import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { technologiesLanguages, technologiesTools } from "../constants";
-import { textVariant } from "../utils/motion";
-import { BallCanvas } from "./canvas";
 
 const Tech = () => {
   return (
     <>
-      <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-20">
-        {/* Tools Column */}
-        <div>
-          <h2 className="dark:text-white text-gray-100 font-black md:text-[50px] sm:text-[50px] xs:text-[40px] text-[30px] mb-10">
-            Developer Tools
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {technologiesTools.map((tools) => (
-              <div className="w-28 h-28 mb-4" key={tools.name}>
-                <BallCanvas icon={tools.icon} />
-              </div>
-            ))}
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>Tools & Languages</h2>
+        <div className="mt-20 grid gap-10">
+          <div>
+            <h2 className="text-center dark:text-white text-gray-100 md:text-[25px] sm:text-[20px] xs:text-[15px] text-[30px] mb-10">
+              Languages
+            </h2>
+            <div className="justify-center dark:text-white text-gray-100 flex flex-wrap gap-16">
+              {technologiesLanguages.map((tools) => (
+                <div
+                  className="flex flex-col items-center mb-4"
+                  key={tools.name}
+                >
+                  <img
+                    src={tools.icon}
+                    alt={tools.name}
+                    className="w-16 h-16"
+                  />{" "}
+                  <span className="font-bold mt-2">{tools.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
 
-        {/* Languages Column */}
-        <div>
-          <h2 className="dark:text-white text-gray-100 font-black md:text-[50px] sm:text-[50px] xs:text-[40px] text-[30px] mb-10">
-            Languages
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {technologiesLanguages.map((technology) => (
-              <div className="w-28 h-28 mb-4" key={technology.name}>
-                <BallCanvas icon={technology.icon} />
-              </div>
-            ))}
+          <div>
+            <h2 className="dark:text-white text-gray-100 text-center md:text-[25px] sm:text-[20px] xs:text-[15px] text-[30px] mb-10 mt-10">
+              Backend
+            </h2>
+            <div className="dark:text-white text-gray-100 flex justify-center flex-wrap gap-16">
+              {backendTools.map((tools) => (
+                <div
+                  className="flex flex-col items-center mb-4"
+                  key={tools.name}
+                >
+                  <img
+                    src={tools.icon}
+                    alt={tools.name}
+                    className="w-16 h-16"
+                  />{" "}
+                  <span className="font-bold mt-2">{tools.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h2 className="dark:text-white text-gray-100 text-center md:text-[25px] sm:text-[20px] xs:text-[15px] text-[30px] mb-10 mt-10">
+              Developer Tools
+            </h2>
+            <div className="dark:text-white text-gray-100 justify-center flex flex-wrap items-center gap-16">
+              {technologiesTools.map((tools) => (
+                <div className="flex flex-col mb-4" key={tools.name}>
+                  <img
+                    src={tools.icon}
+                    alt={tools.name}
+                    className="w-16 h-16"
+                  />{" "}
+                  <span className="font-bold mt-2">{tools.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

@@ -10,6 +10,9 @@ import Hero from "./components/Hero";
 import Tech from "./components/Tech";
 import Navbar from "./components/Navbar";
 import Works from "./components/Works";
+import Bot from "./components/Bot";
+
+import "./chatbot.css";
 
 const App = () => {
   return (
@@ -18,6 +21,7 @@ const App = () => {
         <div className="dark:bg-test-pattern bg-meme-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <Bot />
         </div>
         <About />
         <Tech />

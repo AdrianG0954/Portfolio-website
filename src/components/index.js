@@ -14,6 +14,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import hook from "./hook";
 import hook2 from "./hook2";
+import Bot from "./Bot";
 
 export {
   Hero,
@@ -30,4 +31,5 @@ export {
   StarsCanvas,
   hook,
   hook2,
+  Bot,
 };
