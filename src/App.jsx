@@ -21,7 +21,7 @@ const App = () => {
         <div className="dark:bg-test-pattern bg-meme-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          <Bot />
+          {/* <Bot /> */}
         </div>
         <About />
         <Tech />
